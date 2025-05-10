@@ -3,7 +3,7 @@
     height: 100%;
     margin: 0px;
     
-
+overflow-x: hidden;
     border: 0px solid;
     background-color: #14171A;
 }
