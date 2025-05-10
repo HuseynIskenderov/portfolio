@@ -352,3 +352,86 @@ width: fit-content;
   letter-spacing: 0;
   line-height: normal;
     }
+
+
+     .footer {
+      background-color: #182231;
+      color: white;
+      padding: 50px 60px;
+      display: flex;
+      justify-content: space-between;
+      flex-wrap: wrap;
+    }
+
+    .footer-left {
+      flex: 1;
+      min-width: 250px;
+    }
+
+    .footer-left h1 {
+      font-size: 20px;
+      font-weight: 400;
+      margin: 0 0 5px;
+      font-family: "Euclid Circular A-Medium";
+    }
+
+    .footer-left h2 {
+      font-size: 32px;
+      font-weight: 600;
+      margin: 0 0 30px;
+      font-family: "Euclid Circular A-Light";
+    }
+
+    .footer-left p,
+    .footer-left a {
+      color: #d1d5db;
+      text-decoration: none;
+      margin-bottom: 10px;
+      display: block;
+      font-size: 15px;
+      font-family: "Euclid Circular A-Light";
+    }
+
+    .footer-left a:hover {
+      text-decoration: underline;
+    }
+
+    .footer-links {
+      display: flex;
+      gap: 60px;
+      min-width: 200px;
+      font-family: "Euclid Circular A-Light";
+    }
+
+    .footer-column {
+      display: flex;
+      flex-direction: column;
+    }
+
+    .footer-column a {
+      color: #d1d5db;
+      text-decoration: underline;
+      margin-bottom: 12px;
+      font-size: 15px;
+    }
+
+    .footer-column a:hover {
+      color: white;
+    }
+
+    @media (max-width: 768px) {
+      .footer {
+        flex-direction: column;
+        gap: 40px;
+        padding: 40px 20px;
+      }
+
+      .footer-links {
+        flex-direction: row;
+        justify-content: space-between;
+      }
+
+      .footer-column {
+        margin-top: 20px;
+      }
+    }
