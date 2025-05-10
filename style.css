@@ -1,81 +1,94 @@
-.desktop {
-  display: flex;
-  flex-direction: column;
-  height: 3223px;
-  align-items: center;
-  justify-content: space-between;
-  position: relative;
-  background-color: #13171a;
-}
+.body{
+    width: 100%;
+    height: 100%;
+    margin: 0px;
+    
 
-.desktop .navbar {
-  position: relative;
-  width: 1440px;
-  height: 80px;
+    border: 0px solid;
+    background-color: #14171A;
+}
+@font-face {
+    font-family: Euclid Circular A-Light;
+    src: url("./assets/Euclid\ Circular\ A\ Light.ttf");
+}
+@font-face {
+    font-family: Euclid Circular A-Medium;
+    src: url("assets/Euclid\ Circular\ A\ Medium.ttf");
+}
+.nav {
+  position:fixed;
+  
+  width: 100%;
+  height: 60px;
   background-color: #1f2835;
+  align-content: center;
+  display: flex;
+  flex-direction: row;
+  padding-left: 10px;
 }
 
-.desktop .namelogoicon {
-  position: absolute;
-  width: 63px;
-  height: 63px;
+.namelogoicon {
+
+  width: 50px;
+  height: 50px;
   top: 8px;
+  align-self: center;
   left: 17px;
   object-fit: cover;
 }
 
-.desktop .text-wrapper {
+.text-wrapper {
   width: 98px;
+
+  top: 21px;
   left: 96px;
-  position: absolute;
-  height: 35px;
-  top: 21px;
   font-family: "Euclid Circular A-Light", Helvetica;
   font-weight: 300;
   color: #ffffff;
   font-size: 20px;
   text-align: center;
+  align-content: center;
   letter-spacing: 0;
   line-height: normal;
   text-decoration: underline;
 }
 
-.desktop .div {
+.text-wrapper1 {
+ 
   width: 98px;
-  left: 209px;
-  position: absolute;
-  height: 35px;
-  top: 21px;
+
   font-family: "Euclid Circular A-Light", Helvetica;
   font-weight: 300;
   color: #ffffff;
   font-size: 20px;
   text-align: center;
+  align-content: center;
   letter-spacing: 0;
   line-height: normal;
   text-decoration: underline;
 }
 
-.desktop .text-wrapper-2 {
+.text-wrapper-2 {
+ 
   width: 116px;
-  left: 322px;
-  position: absolute;
-  height: 35px;
+  
   top: 21px;
+  left: 322px;
   font-family: "Euclid Circular A-Light", Helvetica;
   font-weight: 300;
   color: #ffffff;
   font-size: 20px;
   text-align: center;
+  align-content: center;
   letter-spacing: 0;
   line-height: normal;
   text-decoration: underline;
 }
 
-.desktop .text-wrapper-3 {
-  position: absolute;
+.text-wrapper-3 {
+
   width: 98px;
-  height: 35px;
+
   top: 21px;
   left: 450px;
   font-family: "Euclid Circular A-Light", Helvetica;
@@ -83,156 +96,27 @@
   color: #ffffff;
   font-size: 20px;
   text-align: center;
+  align-content: center;
   letter-spacing: 0;
   line-height: normal;
   text-decoration: underline;
 }
-
-.desktop .frame {
-  position: relative;
-  width: 1270px;
-  height: 431px;
+.header{
+        padding-top: 100px;
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+}
+.imgh{
+    width: 400px;
+    height: auto;
+    margin-left: auto;
+    margin-right: 10%;
 }
 
-.desktop .overlap {
-  position: absolute;
-  width: 463px;
-  height: 431px;
-  top: 0;
-  left: 807px;
-}
+.maintext {
 
-.desktop .overlap-group {
-  position: absolute;
-  width: 463px;
-  height: 431px;
-  top: 0;
-  left: 0;
-}
-
-.desktop .rectangle {
-  position: absolute;
-  width: 301px;
-  height: 280px;
-  top: 151px;
-  left: 23px;
-  border-radius: 28px;
-  border: 9px solid;
-  border-color: #223440;
-}
-
-.desktop .rectangle-2 {
-  position: absolute;
-  width: 239px;
-  height: 123px;
-  top: 0;
-  left: 224px;
-  border-radius: 17px;
-  border: 11px solid;
-  border-color: #223440;
-}
-
-.desktop .rectangle-3 {
-  position: absolute;
-  width: 324px;
-  height: 283px;
-  top: 79px;
-  left: 81px;
-  background-color: #d9d9d9;
-  border-radius: 42px;
-}
-
-.desktop .rectangle-4 {
-  position: absolute;
-  width: 61px;
-  height: 62px;
-  top: 211px;
-  left: 0;
-  background-color: #0d99ff;
-  border-radius: 11px;
-}
-
-.desktop .rectangle-5 {
-  position: absolute;
-  width: 61px;
-  height: 61px;
-  top: 129px;
-  left: 0;
-  background-color: #0d99ff;
-  border-radius: 11px;
-}
-
-.desktop .rectangle-6 {
-  position: absolute;
-  width: 64px;
-  height: 31px;
-  top: 180px;
-  left: 392px;
-  background-color: #0d99ff;
-  border-radius: 7px;
-}
-
-.desktop .rectangle-7 {
-  position: absolute;
-  width: 64px;
-  height: 30px;
-  top: 219px;
-  left: 392px;
-  background-color: #0d99ff;
-  border-radius: 7px;
-}
-
-.desktop .rectangle-8 {
-  position: absolute;
-  width: 64px;
-  height: 30px;
-  top: 257px;
-  left: 392px;
-  background-color: #0d99ff;
-  border-radius: 7px;
-}
-
-.desktop .rectangle-9 {
-  position: absolute;
-  width: 64px;
-  height: 30px;
-  top: 295px;
-  left: 392px;
-  background-color: #0d99ff;
-  border-radius: 7px;
-}
-
-.desktop .mask-group {
-  position: absolute;
-  width: 332px;
-  height: 327px;
-  top: 37px;
-  left: 77px;
-}
-
-.desktop .rectangle-10 {
-  position: absolute;
-  width: 61px;
-  height: 61px;
-  top: 47px;
-  left: 0;
-  background-color: #0d99ff;
-  border-radius: 11px;
-}
-
-.desktop .overlap-2 {
-  position: absolute;
-  width: 632px;
-  height: 282px;
-  top: 88px;
-  left: 0;
-}
-
-.desktop .text-wrapper-4 {
-  position: absolute;
-  width: 632px;
-  top: 0;
-  left: 0;
+ 
   font-family: "Euclid Circular A-Medium", Helvetica;
   font-weight: 500;
   color: #ffffff;
@@ -240,873 +124,231 @@
   letter-spacing: 0;
   line-height: normal;
 }
+.industrial-graphic {
 
-.desktop .industrial-graphic {
-  position: absolute;
   width: 534px;
-  top: 73px;
-  left: 0;
+
   font-family: "Euclid Circular A-Medium", Helvetica;
   font-weight: 500;
   color: #ffffff;
-  font-size: 32px;
+  font-size: 25px;
   letter-spacing: 0;
   line-height: normal;
+  margin-bottom: 10%;
 }
 
-.desktop .vector {
-  position: absolute;
+.vector-1 {
+margin: 10px;
   width: 35px;
   height: 35px;
-  top: 230px;
-  left: 326px;
+
 }
 
-.desktop .img {
-  position: absolute;
+.vector-2 {
+
+margin: 10px;
   width: 35px;
   height: 35px;
-  top: 230px;
-  left: 226px;
+  
 }
 
-.desktop .vector-2 {
-  position: absolute;
+.vector-3 {
+ 
+margin: 10px;
   width: 35px;
   height: 35px;
-  top: 230px;
-  left: 276px;
+
 }
 
-.desktop .vector-3 {
-  position: absolute;
+.vector-4 {
+
+ margin: 10px;
   width: 35px;
   height: 35px;
-  top: 230px;
-  left: 376px;
-}
 
-.desktop .rectangle-11 {
-  position: absolute;
-  width: 201px;
-  height: 68px;
-  top: 214px;
-  left: 0;
+}
+.vector-1:hover{
+    filter: drop-shadow(0px 0px 1px white);
+}
+.vector-2:hover{
+    filter: drop-shadow(0px 0px 1px white);
+}
+.vector-3:hover{
+    filter: drop-shadow(0px 0px 1px white);
+}
+.vector-4:hover{
+    filter: drop-shadow(0px 0px 1px white);
+}
+.rectangle {
+
+  width: 150px;
+  height: 60px;
+
+  margin-right: 10px;
   background-color: #0285cd;
   border-radius: 25px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border: 0px;
 }
+.rectangle:hover{
+    box-shadow: 0 0 5px white;
+}
+.div {
 
-.desktop .text-wrapper-5 {
-  position: absolute;
   width: 164px;
-  height: 37px;
-  top: 228px;
-  left: 19px;
-  font-family: "Euclid Circular A-SemiBold", Helvetica;
+
+  font-family: "Euclid Circular A-Medium", Helvetica;
   font-weight: 600;
   color: #ffffff;
-  font-size: 24px;
+  font-size: 16px;
   text-align: center;
   letter-spacing: 0;
   line-height: normal;
 }
+.buttonwrap{
+    height: auto;
+    display: flex;
+    flex-direction: row;
+    align-content: center;
+    align-items: center;
+}
+.htext{
+width: fit-content;
+    display: flex;
+    flex-direction: column;
+  margin-left: 8%;
+}
 
-.desktop .text-wrapper-6 {
-  position: relative;
-  width: 244px;
-  height: 58px;
-  font-family: "Euclid Circular A-Medium", Helvetica;
-  font-weight: 500;
-  color: #ffffff;
-  font-size: 36px;
+.services{
+    width: 100%;
+    margin-top: 30px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+
+
+
+.icon {
+  font-size: 32px;
+  margin-bottom: 12px;
+}
+
+.card {
+  background: #1e3a47;
+  color: white;
+  padding: 24px;
+  margin-left: auto;
+  margin-right: auto;
+  border-radius: 20px;
   text-align: center;
-  letter-spacing: 0;
-  line-height: normal;
+  transition: height 0.3s ease;
+  width: 280px;
+  cursor: pointer;
+  height: 100px; /* initial height */
+  overflow: hidden;
 }
 
-.desktop .frame-2 {
-  display: flex;
-  flex-wrap: wrap;
-  width: 1412px;
-  height: 194px;
-  align-items: flex-start;
-  justify-content: center;
-  gap: 56px 128px;
-  padding: 22px 35px;
-  position: relative;
+.card:hover {
+  height: 180px; /* height after hover */
 }
 
-.desktop .frame-3 {
-  display: flex;
-  flex-direction: column;
-  width: 310.55px;
-  height: 130.92px;
-  align-items: center;
-  gap: 22.07px;
-  padding: 22.83px 138.53px 15.98px;
-  position: relative;
-  background-color: #21343f;
-  border-radius: 20.55px;
+.description {
+  opacity: 0;
+  max-height: 0;
+  overflow: hidden;
+  font-size: 16px;
+  font-family: "Euclid Circular A-Light";
+  transition: opacity 0.3s ease, max-height 0.3s ease;
 }
 
-.desktop .vector-4 {
-  position: relative;
-  width: 30.45px;
-  height: 30.45px;
+.card:hover .description {
+  opacity: 1;
+  max-height: 100px;
 }
 
-.desktop .text-wrapper-7 {
-  position: relative;
-  width: 222.26px;
-  height: 73.83px;
-  margin-bottom: -33.49px;
-  margin-left: -94.38px;
-  margin-right: -94.38px;
-  font-family: "Euclid Circular A-Medium", Helvetica;
-  font-weight: 500;
-  color: #ffffff;
-  font-size: 27.4px;
-  text-align: center;
-  letter-spacing: 0;
-  line-height: normal;
+.cardt{
+    font-size: 20px;
+    font-family: "Euclid Circular A-Light";
 }
-
-.desktop .vector-5 {
-  position: relative;
-  width: 28.97px;
-  height: 30.4px;
+.servicest{
+    align-self: center;
+    text-align: center;
+    color: white; 
+    
+    font-family: "Euclid Circular A-Light";
 }
-
-.desktop .text-wrapper-8 {
-  position: relative;
-  width: 222.26px;
-  height: 73.83px;
-  margin-bottom: -33.44px;
-  margin-left: -94.38px;
-  margin-right: -94.38px;
-  font-family: "Euclid Circular A-Medium", Helvetica;
-  font-weight: 500;
-  color: #ffffff;
-  font-size: 27.4px;
-  text-align: center;
-  letter-spacing: 0;
-  line-height: normal;
+.aboutimg{
+    width: 550px;
+    height: auto;
+    margin: 80px;
 }
-
-.desktop .vector-6 {
-  position: relative;
-  width: 40.47px;
-  height: 30.35px;
-  margin-left: -3.49px;
-  margin-right: -3.49px;
+.about{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
 }
-
-.desktop .text-wrapper-9 {
-  position: relative;
-  width: 222.26px;
-  height: 73.83px;
-  margin-bottom: -33.40px;
-  margin-left: -94.38px;
-  margin-right: -94.38px;
-  font-family: "Euclid Circular A-Medium", Helvetica;
-  font-weight: 500;
-  color: #ffffff;
-  font-size: 27.4px;
-  text-align: center;
-  letter-spacing: 0;
-  line-height: normal;
-}
-
-.desktop .frame-4 {
-  position: relative;
-  width: 1237px;
-  height: 452.98px;
-}
-
-.desktop .frame-5 {
-  position: absolute;
-  width: 659px;
-  height: 306px;
-  top: 10px;
-  left: 578px;
-}
-
-.desktop .i-can-design {
-  position: absolute;
-  width: 659px;
-  top: -1px;
-  left: 0;
-  font-family: "Euclid Circular A-Medium", Helvetica;
-  font-weight: 500;
-  color: transparent;
-  font-size: 60px;
-  text-align: center;
-  letter-spacing: 0;
-  line-height: normal;
-}
-
-.desktop .span {
-  color: #ffffff;
-}
-
-.desktop .text-wrapper-10 {
-  color: #0d99ff;
-  text-decoration: underline;
-}
-
-.desktop .i-am-a-designer-with {
-  position: absolute;
-  width: 638px;
-  top: 120px;
-  left: 11px;
-  font-family: "Euclid Circular A-Medium", Helvetica;
-  font-weight: 500;
-  color: #ffffff;
-  font-size: 20px;
-  letter-spacing: 0;
-  line-height: normal;
-}
-
-.desktop .frame-6 {
-  position: absolute;
-  width: 562px;
-  height: 453px;
-  top: 0;
-  left: 0;
-}
-
-.desktop .text-wrapper-11 {
-  position: relative;
-  width: 228px;
-  height: 99px;
-  font-family: "Euclid Circular A-Medium", Helvetica;
-  font-weight: 500;
-  color: #ffffff;
-  font-size: 60px;
-  text-align: center;
-  letter-spacing: 0;
-  line-height: normal;
-}
-
-.desktop .frame-7 {
-  position: relative;
-  width: 1267px;
-  height: 208px;
-}
-
-.desktop .frame-8 {
-  position: absolute;
-  width: 711px;
-  height: 208px;
-  top: 0;
-  left: 556px;
-  background-color: #0d99ff;
-  border-radius: 36px;
-}
-
-.desktop .overlap-3 {
-  position: absolute;
-  width: 677px;
-  height: 68px;
-  top: 24px;
-  left: 13px;
-}
-
-.desktop .rectangle-12 {
-  position: absolute;
-  width: 207px;
-  height: 68px;
-  top: 0;
-  left: 11px;
-  background-color: #7bc8f8;
-  border-radius: 13px;
-}
-
-.desktop .rectangle-13 {
-  position: absolute;
-  width: 197px;
-  height: 68px;
-  top: 0;
-  left: 238px;
-  background-color: #7bc8f8;
-  border-radius: 13px;
-}
-
-.desktop .rectangle-14 {
-  position: absolute;
-  width: 217px;
-  height: 68px;
-  top: 0;
-  left: 455px;
-  background-color: #7bc8f8;
-  border-radius: 13px;
-}
-
-.desktop .text-wrapper-12 {
-  position: absolute;
-  width: 228px;
-  height: 46px;
-  top: 10px;
-  left: 0;
-  font-family: "Euclid Circular A-Medium", Helvetica;
-  font-weight: 500;
-  color: #223440;
-  font-size: 24px;
-  text-align: center;
-  letter-spacing: 0;
-  line-height: normal;
-}
-
-.desktop .text-wrapper-13 {
-  position: absolute;
-  width: 228px;
-  height: 46px;
-  top: 10px;
-  left: 223px;
-  font-family: "Euclid Circular A-Medium", Helvetica;
-  font-weight: 500;
-  color: #223440;
-  font-size: 24px;
-  text-align: center;
-  letter-spacing: 0;
-  line-height: normal;
-}
-
-.desktop .text-wrapper-14 {
-  position: absolute;
-  width: 228px;
-  height: 46px;
-  top: 10px;
-  left: 449px;
-  font-family: "Euclid Circular A-Medium", Helvetica;
-  font-weight: 500;
-  color: #223440;
-  font-size: 24px;
-  text-align: center;
-  letter-spacing: 0;
-  line-height: normal;
-}
-
-.desktop .overlap-group-2 {
-  position: absolute;
-  width: 661px;
-  height: 71px;
-  top: 111px;
-  left: 24px;
-}
-
-.desktop .rectangle-15 {
-  position: absolute;
-  width: 298px;
-  height: 68px;
-  top: 3px;
-  left: 0;
-  background-color: #7bc8f8;
-  border-radius: 13px;
-}
-
-.desktop .rectangle-16 {
-  position: absolute;
-  width: 161px;
-  height: 68px;
-  top: 0;
-  left: 319px;
-  background-color: #7bc8f8;
-  border-radius: 13px;
-}
-
-.desktop .rectangle-17 {
-  position: absolute;
-  width: 161px;
-  height: 68px;
-  top: 0;
-  left: 500px;
-  background-color: #7bc8f8;
-  border-radius: 13px;
-}
-
-.desktop .text-wrapper-15 {
-  position: absolute;
-  width: 111px;
-  height: 46px;
-  top: 10px;
-  left: 525px;
-  font-family: "Euclid Circular A-Medium", Helvetica;
-  font-weight: 500;
-  color: #223440;
-  font-size: 24px;
-  text-align: center;
-  letter-spacing: 0;
-  line-height: normal;
-}
-
-.desktop .text-wrapper-16 {
-  position: absolute;
-  width: 228px;
-  height: 46px;
-  top: 10px;
-  left: 286px;
-  font-family: "Euclid Circular A-Medium", Helvetica;
-  font-weight: 500;
-  color: #223440;
-  font-size: 24px;
-  text-align: center;
-  letter-spacing: 0;
-  line-height: normal;
-}
-
-.desktop .text-wrapper-17 {
-  width: 228px;
-  height: 46px;
-  top: 13px;
-  left: 35px;
-  color: #223440;
-  position: absolute;
-  font-family: "Euclid Circular A-Medium", Helvetica;
-  font-weight: 500;
-  font-size: 24px;
-  text-align: center;
-  letter-spacing: 0;
-  line-height: normal;
-}
-
-.desktop .frame-9 {
-  position: absolute;
-  width: 525px;
-  height: 208px;
-  top: 0;
-  left: 0;
-  background-color: #223440;
-  border-radius: 36px;
-}
-
-.desktop .dcznqv-badf {
-  position: absolute;
-  width: 68px;
-  height: 68px;
-  top: 26px;
-  left: 27px;
-  object-fit: cover;
-}
-
-.desktop .mask-group-wrapper {
-  position: absolute;
-  width: 68px;
-  height: 68px;
-  top: 26px;
-  left: 115px;
-  background-image: url(./img/dc8znqv-bad6138f-fd0f-434e-8c03-528c8926053b-3.png);
-  background-size: cover;
-  background-position: 50% 50%;
-}
-
-.desktop .mask-group-2 {
-  position: absolute;
-  width: 68px;
-  height: 68px;
-  top: 0;
-  left: 0;
-}
-
-.desktop .overlap-4 {
-  position: absolute;
-  width: 68px;
-  height: 69px;
-  top: 113px;
-  left: 379px;
-}
-
-.desktop .dcznqv-badf-2 {
-  position: absolute;
-  width: 68px;
-  height: 68px;
-  top: 1px;
-  left: 0;
-  object-fit: cover;
-}
-
-.desktop .mask-group-3 {
-  position: absolute;
-  width: 68px;
-  height: 69px;
-  top: 0;
-  left: 0;
-}
-
-.desktop .img-wrapper {
-  position: absolute;
-  width: 68px;
-  height: 68px;
-  top: 114px;
-  left: 291px;
-  background-image: url(./img/dc8znqv-bad6138f-fd0f-434e-8c03-528c8926053b-8.png);
-  background-size: cover;
-  background-position: 50% 50%;
-}
-
-.desktop .overlap-5 {
-  position: absolute;
-  width: 228px;
-  height: 68px;
-  top: 26px;
-  left: 283px;
-}
-
-.desktop .rectangle-18 {
-  position: absolute;
-  width: 207px;
-  height: 68px;
-  top: 0;
-  left: 10px;
-  background-color: #304b5c;
-  border-radius: 13px;
-}
-
-.desktop .text-wrapper-18 {
-  position: absolute;
-  width: 228px;
-  top: 8px;
-  left: 0;
-  font-family: "Euclid Circular A-Medium", Helvetica;
-  font-weight: 500;
-  color: #ffffff;
-  font-size: 40px;
-  text-align: center;
-  letter-spacing: 0;
-  line-height: normal;
-  white-space: nowrap;
-}
-
-.desktop .blender-logo-no-text {
-  position: absolute;
-  width: 68px;
-  height: 56px;
-  top: 30px;
-  left: 203px;
-  object-fit: cover;
-}
-
-.desktop .adobe-photoshop-CC {
-  position: absolute;
-  width: 67px;
-  height: 66px;
-  top: 116px;
-  left: 204px;
-  object-fit: cover;
-}
-
-.desktop .images {
-  left: 27px;
-  position: absolute;
-  width: 68px;
-  height: 66px;
-  top: 116px;
-  object-fit: cover;
-}
-
-.desktop .images-2 {
-  left: 115px;
-  position: absolute;
-  width: 68px;
-  height: 66px;
-  top: 116px;
-  object-fit: cover;
-}
-
-.desktop .frame-10 {
-  position: relative;
-  width: 1267px;
-  height: 412px;
-}
-
-.desktop .overlap-6 {
-  position: absolute;
-  width: 379px;
-  height: 412px;
-  top: 0;
-  left: 0;
-  background-color: #223440;
-  border-radius: 35px;
-}
-
-.desktop .mask-group-4 {
-  position: absolute;
-  width: 379px;
-  height: 343px;
-  top: 0;
-  left: 0;
-}
-
-.desktop .text-wrapper-19 {
-  position: absolute;
-  width: 210px;
-  top: 362px;
-  left: 83px;
-  font-family: "Euclid Circular A-Medium", Helvetica;
-  font-weight: 500;
-  color: #ffffff;
-  font-size: 24px;
-  text-align: center;
-  letter-spacing: 0;
-  line-height: normal;
-}
-
-.desktop .overlap-7 {
-  position: absolute;
-  width: 379px;
-  height: 412px;
-  top: 0;
-  left: 444px;
-  background-color: #223440;
-  border-radius: 35px;
-}
-
-.desktop .text-wrapper-20 {
-  position: absolute;
-  width: 210px;
-  top: 362px;
-  left: 85px;
-  font-family: "Euclid Circular A-Medium", Helvetica;
-  font-weight: 500;
-  color: #ffffff;
-  font-size: 24px;
-  text-align: center;
-  letter-spacing: 0;
-  line-height: normal;
-}
-
-.desktop .overlap-8 {
-  position: absolute;
-  width: 379px;
-  height: 412px;
-  top: 0;
-  left: 888px;
-  background-color: #223440;
-  border-radius: 35px;
-}
-
-.desktop .text-wrapper-21 {
-  position: absolute;
-  width: 210px;
-  top: 362px;
-  left: 84px;
-  font-family: "Euclid Circular A-Medium", Helvetica;
-  font-weight: 500;
-  color: #ffffff;
-  font-size: 24px;
-  text-align: center;
-  letter-spacing: 0;
-  line-height: normal;
-}
-
-.desktop .text-wrapper-22 {
-  position: absolute;
-  width: 210px;
-  top: 362px;
-  left: 86px;
-  font-family: "Euclid Circular A-Medium", Helvetica;
-  font-weight: 500;
-  color: #ffffff;
-  font-size: 24px;
-  text-align: center;
-  letter-spacing: 0;
-  line-height: normal;
-}
-
-.desktop .frame-11 {
-  position: relative;
-  width: 1440px;
-  height: 397px;
-  background-color: #1f2835;
-}
-
-.desktop .text-wrapper-23 {
-  position: absolute;
-  width: 292px;
-  top: 39px;
-  left: 21px;
-  font-family: "Euclid Circular A-Medium", Helvetica;
-  font-weight: 500;
-  color: #ffffff;
-  font-size: 40px;
-  text-align: center;
-  letter-spacing: 0;
-  line-height: normal;
-}
-
-.desktop .text-wrapper-24 {
-  position: absolute;
-  width: 403px;
-  top: 101px;
-  left: 72px;
-  font-family: "Euclid Circular A-Medium", Helvetica;
+.abouttext{
+    font-family: "Euclid Circular A-Medium", Helvetica;
   font-weight: 500;
   color: #ffffff;
   font-size: 48px;
-  text-align: center;
   letter-spacing: 0;
   line-height: normal;
 }
+.aboutme{
+      width: 534px;
 
-.desktop .text-wrapper-25 {
-  position: absolute;
-  width: 135px;
-  top: 54px;
-  left: 1070px;
   font-family: "Euclid Circular A-Light", Helvetica;
-  font-weight: 300;
-  color: #ffffff;
-  font-size: 24px;
-  letter-spacing: 0;
-  line-height: normal;
-  text-decoration: underline;
-}
-
-.desktop .text-wrapper-26 {
-  position: absolute;
-  width: 135px;
-  top: 109px;
-  left: 1070px;
-  font-family: "Euclid Circular A-Light", Helvetica;
-  font-weight: 300;
-  color: #ffffff;
-  font-size: 24px;
-  letter-spacing: 0;
-  line-height: normal;
-  text-decoration: underline;
-}
-
-.desktop .frame-12 {
-  display: flex;
-  flex-direction: column;
-  width: 608px;
-  height: 129px;
-  align-items: flex-start;
-  gap: 12px;
-  position: absolute;
-  top: 253px;
-  left: 86px;
-}
-
-.desktop .text-wrapper-27 {
-  position: relative;
-  width: 355px;
-  height: 25px;
-  margin-top: -1.00px;
-  font-family: "Euclid Circular A-Light", Helvetica;
-  font-weight: 300;
+  font-weight: 500;
   color: #ffffff;
   font-size: 20px;
   letter-spacing: 0;
   line-height: normal;
+
+  margin-right: 100px;
 }
 
-.desktop .text-wrapper-28 {
-  position: relative;
-  width: 359px;
-  height: 25px;
-  font-family: "Euclid Circular A-Light", Helvetica;
-  font-weight: 300;
-  color: #7bc8f8;
-  font-size: 16px;
-  letter-spacing: 0;
-  line-height: normal;
-  text-decoration: underline;
-}
+.grid {
+      display: grid;
+      grid-template-columns: repeat(3, 1fr);
+      gap: 60px;
+      margin: 60px;
+    }
 
-.desktop .text-wrapper-29 {
-  position: relative;
-  width: 215px;
-  height: 49px;
-  font-family: "Euclid Circular A-Light", Helvetica;
-  font-weight: 300;
+    .cardG {
+      background-color: #1e1e1e;
+      border-radius: 35px;
+      overflow: hidden;
+      text-align: center;
+      box-shadow: 0 4px 15px rgba(0,0,0,0.3);
+    }
+
+    .cardG img {
+      width: 100%;
+      height: auto;
+      display: block;
+      border-radius: 35px;
+    }
+
+    .cardG p {
+      margin: 0;
+      padding: 15px;
+      font-weight: bold;
+      font-size: 1.1rem;
+      background-color: #2a2a2a;
+      border-top: 1px solid #333;
+      border-radius: 0 0 20px 20px;
+    }
+    .gtext{
+        font-family: "Euclid Circular A-Light", Helvetica;
+  font-weight: 500;
   color: #ffffff;
-  font-size: 16px;
+  font-size:16px;
   letter-spacing: 0;
   line-height: normal;
-  text-decoration: underline;
-}
-
-.desktop .text-wrapper-30 {
-  position: absolute;
-  width: 135px;
-  top: 164px;
-  left: 1070px;
-  font-family: "Euclid Circular A-Light", Helvetica;
-  font-weight: 300;
-  color: #ffffff;
-  font-size: 24px;
-  letter-spacing: 0;
-  line-height: normal;
-  text-decoration: underline;
-}
-
-.desktop .text-wrapper-31 {
-  position: absolute;
-  width: 135px;
-  top: 54px;
-  left: 1255px;
-  font-family: "Euclid Circular A-Light", Helvetica;
-  font-weight: 300;
-  color: #ffffff;
-  font-size: 24px;
-  letter-spacing: 0;
-  line-height: normal;
-  text-decoration: underline;
-}
-
-.desktop .text-wrapper-32 {
-  position: absolute;
-  width: 135px;
-  top: 219px;
-  left: 1070px;
-  font-family: "Euclid Circular A-Light", Helvetica;
-  font-weight: 300;
-  color: #ffffff;
-  font-size: 24px;
-  letter-spacing: 0;
-  line-height: normal;
-  text-decoration: underline;
-}
-
-.desktop .text-wrapper-33 {
-  position: absolute;
-  width: 135px;
-  top: 109px;
-  left: 1255px;
-  font-family: "Euclid Circular A-Light", Helvetica;
-  font-weight: 300;
-  color: #ffffff;
-  font-size: 24px;
-  letter-spacing: 0;
-  line-height: normal;
-  text-decoration: underline;
-}
-
-.desktop .text-wrapper-34 {
-  position: absolute;
-  width: 135px;
-  top: 164px;
-  left: 1255px;
-  font-family: "Euclid Circular A-Light", Helvetica;
-  font-weight: 300;
-  color: #ffffff;
-  font-size: 24px;
-  letter-spacing: 0;
-  line-height: normal;
-  text-decoration: underline;
-}
-
-.desktop .text-wrapper-35 {
-  position: absolute;
-  width: 135px;
-  top: 219px;
-  left: 1255px;
-  font-family: "Euclid Circular A-Light", Helvetica;
-  font-weight: 300;
-  color: #ffffff;
-  font-size: 24px;
-  letter-spacing: 0;
-  line-height: normal;
-  text-decoration: underline;
-}
+    }
