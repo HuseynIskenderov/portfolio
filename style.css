@@ -434,4 +434,142 @@ width: fit-content;
       .footer-column {
         margin-top: 20px;
       }
+
+
+.grid {
+      display: grid;
+      grid-template-columns: repeat(1, 1fr);
+      gap: 10px;
+      
+    }
+
+.cardG img{
+    border-radius: 35px;
+}
+  .cardG {
+      background-color: #1e1e1e;
+      border-radius: 35px;
+      overflow: hidden;
+      text-align: center;
+      box-shadow: 0 4px 15px rgba(0,0,0,0.3);
+    }
+.about{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.header{
+        padding-top: 100px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+}
+.maintext {
+
+ 
+  font-family: "Euclid Circular A-Medium", Helvetica;
+  font-weight: 500;
+  color: #ffffff;
+  font-size: 38px;
+  letter-spacing: 0;
+  line-height: normal;
+}
+.industrial-graphic {
+
+  width: 534px;
+
+  font-family: "Euclid Circular A-Medium", Helvetica;
+  font-weight: 500;
+  color: #ffffff;
+  font-size: 18px;
+  letter-spacing: 0;
+  line-height: normal;
+ text-align: center;
+  margin-bottom: 10%;
+}
+.htext{
+width: fit-content;
+    display: flex;
+    flex-direction: column;
+
+  align-items: center;
+}
+.buttonwrap{
+    height: auto;
+    display: flex;
+    margin-bottom: 10px;
+    flex-direction: row;
+    align-content: center;
+    align-items: center;
+}
+.cardt{
+    font-size: 14px;
+}
+.card {
+  background: #1e3a47;
+  color: white;
+  padding: 24px;
+  margin-left: 20px;
+  margin-right: 20px;
+  border-radius: 20px;
+  text-align: center;
+  transition: height 0.3s ease;
+  width: 220px;
+  cursor: pointer;
+  height: 100px; /* initial height */
+  overflow: hidden;
+}
+
+.card:hover {
+  height: 200px; /* height after hover */
+}
+
+.description {
+  opacity: 0;
+  max-height: 0;
+  width: 100%;
+  overflow: hidden;
+  font-size: 11px;
+  font-family: "Euclid Circular A-Light";
+  transition: opacity 0.3s ease, max-height 0.3s ease;
+}
+
+.card:hover .description {
+  opacity: 1;
+  max-height: 100px;
+}
+.icon {
+  
+  width: 20px;
+  margin-bottom: 10px;
+}
+
+.aboutimg{
+    width: 400px;
+    height: auto;
+    margin: 30px;
+}
+.abouttext{
+    font-family: "Euclid Circular A-Medium", Helvetica;
+  font-weight: 500;
+  color: #ffffff;
+  font-size: 38px;
+  letter-spacing: 0;
+  line-height: normal;
+  text-align: center;
+}
+.aboutme{
+width: 100%;
+
+  font-family: "Euclid Circular A-Light", Helvetica;
+  font-weight: 500;
+  color: #ffffff;
+  font-size: 14px;
+  letter-spacing: 0;
+  line-height: normal;
+margin: 20px;
+  
+}
     }
