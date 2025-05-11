@@ -496,7 +496,7 @@ margin: 10px;
 width: fit-content;
     display: flex;
     flex-direction: column;
-
+margin-left: 0px;
   align-items: center;
 }
 .buttonwrap{
@@ -566,7 +566,7 @@ width: fit-content;
   margin-left: 30px;
 }
 .aboutme{
-width: 100%;
+width: 80%;
 
   font-family: "Euclid Circular A-Light", Helvetica;
   font-weight: 500;
@@ -575,9 +575,10 @@ width: 100%;
   letter-spacing: 0;
   line-height: normal;
   text-align: center;
-margin:5%;
-
-  
+text-align: center;
+  align-self: center;
+  margin-right:0px;
+  margin-top: 50px;
 }
 .text-wrapper {
     margin-left: 20px;
@@ -655,6 +656,4 @@ margin-right: 10px;
   width: 25px;
   height: 25px;
 }
-        .htext{
-            margin-left:0px;
     }
