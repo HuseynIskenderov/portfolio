@@ -1,4 +1,4 @@
-body{
+.body{
     width: 100%;
     height: 100%;
     margin: 0px;
@@ -366,7 +366,7 @@ width: fit-content;
 
     .footer-left {
       flex: 1;
-      min-width: 250px;
+      
     }
 
     .footer-left h1 {
@@ -402,6 +402,7 @@ width: fit-content;
       gap: 60px;
       min-width: 200px;
       font-family: "Euclid Circular A-Light";
+      margin-right: 100px;
     }
 
     .footer-column {
@@ -423,7 +424,7 @@ width: fit-content;
     @media (max-width: 768px) {
       .footer {
         flex-direction: column;
-        
+        align-items: start;
         padding: 40px 10px;
       }
 
