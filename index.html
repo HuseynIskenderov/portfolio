@@ -10,12 +10,12 @@
     <script src="srcipt.js"></script>
 <nav class="nav">
       <img class="namelogoicon" src="assets/namelogoicon-1.png" />
-      <div class="text-wrapper">Home</div>
-      <div class="text-wrapper1">Services</div>
-      <div class="text-wrapper-2">Portfolio</div>
-      <div class="text-wrapper-3">Contact</div>
+      <a href="#home" class="text-wrapper">Home</a>
+      <a href="#services" class="text-wrapper1">Services</a>
+      <a href="#work" class="text-wrapper-2">Portfolio</a>
+      <a href="#contact" class="text-wrapper-3">Contact</a>
 </nav>
-<div class="header">
+<div id="home" class="header">
 <div class="htext">
     <div class="maintext">Hi, I’m Huseyn Iskandar</div>
         <p class="industrial-graphic">Industrial &amp; Graphic design <br>specialist</p>
@@ -23,21 +23,21 @@
      
         <div class="buttonwrap">
         <button class="rectangle">
-            <div class="div">View my work</div>
+            <a class="div">View my work</a>
         </button> 
 
-           <img class="vector-1" src="assets/vector-1.png" />
-        <img class="vector-2" src="assets/vector-2.png" />
-        <img class="vector-3" src="assets/vector-3.png" />
-        <img class="vector-4" src="assets/vector-4.png" />
+          <a href="https://www.facebook.com/huseyn.iskenderov.12"> <img class="vector-1" src="assets/vector-1.png" /></a>
+        <a href="https://www.instagram.com/iskenderart"><img class="vector-2" src="assets/vector-2.png" /></a>
+       <a href="https://www.linkedin.com/in/huseyn-iskender-6aa76a2bb"><img class="vector-3" src="assets/vector-3.png" /></a> 
+       <a href="https://www.behance.net/huseyn_iskender"> <img class="vector-4" src="assets/social (2).png" /></a>
         </div>
        
         
 </div>
 <img class="imgh" src="assets/Group 1.png">
 </div>
-<h1 class="servicest">Services</h1>
-<div class="services">
+<h1 id="services" class="servicest">Services</h1>
+<div  class="services">
 <div class="card" onclick="toggleCard(this)">
     <img class="icon" src="assets/tool1.png"/>
     <h2 class="cardt">Graphic design</h2>
@@ -64,14 +64,14 @@
 </div>
 <div class="about">
 <img class="aboutimg" src="assets/Frame 14.png"/>
-<div style="display: flex; flex-direction: column; justify-content: center; margin-bottom: 1%; margin-left: auto;">
+<div id="about" style="display: flex; flex-direction: column; justify-content: center; margin-bottom: 1%; margin-left: auto;">
   <div class="abouttext">I can design <b style="color: #3f91c3;">Anything</b></div>
         <p class="aboutme">I am a designer with a versatile skill set across industrial design, graphic design, and user interface/user experience.<br> I focus on creating thoughtful, functional, and visually engaging products—both physical and digital.
 <br><br>My approach blends creativity with practical design thinking.<br> I enjoy solving real-world problems through form, aesthetics, and usability.<br> I value simplicity, clarity, and meaningful experiences.</p>
       </div>
 </div>
-<h1 class="servicest">Portfolio</h1>
-<div class="grid">
+<h1 id="work" class="servicest">Portfolio</h1>
+<div  class="grid">
     <div class="cardG">
       <img src="assets/watch design v2 4 1.png" alt="Product design">
       <p class="gtext">Product design</p>
@@ -104,22 +104,22 @@
       <h1>Portfolio</h1>
       <h2>Huseyn Iskandar</h2>
       <p>Baku, Azerbaijan</p>
-      <a href="mailto:iskenderovuseyn262@gmail.com">iskenderovuseyn262@gmail.com</a>
+      <a id="contact" href="mailto:iskenderovuseyn262@gmail.com">iskenderovuseyn262@gmail.com</a>
       <a href="tel:+994708130151">+994-70-813-01-51</a>
     </div>
 
     <div class="footer-links">
       <div class="footer-column">
-        <a href="#">About</a>
-        <a href="#">Services</a>
-        <a href="#">My Work</a>
-        <a href="#">Contact</a>
+        <a href="#home">Home</a>
+        <a href="#about">About</a>
+        <a href="#services">Services</a>
+        <a href="#work">My Work</a>
       </div>
       <div class="footer-column">
-        <a href="#">Facebook</a>
-        <a href="#">Instagram</a>
-        <a href="#">LinkedIn</a>
-        <a href="#">Twitter</a>
+        <a href="https://www.facebook.com/huseyn.iskenderov.12">Facebook</a>
+        <a href="https://www.instagram.com/iskenderart">Instagram</a>
+        <a href="www.linkedin.com/in/huseyn-iskender-6aa76a2bb">LinkedIn</a>
+        <a href="https://www.behance.net/huseyn_iskender">Behance</a>
       </div>
     </div>
   </footer>
