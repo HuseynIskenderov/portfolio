@@ -425,7 +425,7 @@ margin: 10px;
       color: white;
     }
 
-    @media (max-width: 768px) {
+    @media (max-width: 600px) {
       .footer {
         flex-direction: column;
         align-items: start;
@@ -660,5 +660,47 @@ margin-right: 10px;
 .vector-1, .vector-2, .vector-3, .vector-4{
   width: 25px;
   height: 25px;
+}
+    }
+
+    @media (min-width: 600px) and (max-width: 1024px) {
+
+.card{
+  margin-left: 2%;
+  margin-right: 2%;
+}
+.abouttext{
+  font-size: 25px;
+}
+.aboutme{
+  font-size: 14px;
+  width: 80%;
+}
+.aboutimg{
+  width: 30%;
+}
+.imgh{
+  width: 40%;
+}
+.cardt{
+  font-size: 16px;
+  text-align: center;
+}
+.description{
+  font-size: 14px;
+}
+.maintext{
+  font-size: 38px;
+}
+.vector-1, .vector-2, .vector-3, .vector-4{
+  width: 20px;
+  height: 20px;
+}
+.rectangle{
+  width: 100px;
+  height: 40px;
+}
+.div{
+  font-size: 12px;
 }
     }
