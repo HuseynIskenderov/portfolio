@@ -1,0 +1,453 @@
+html{
+  scroll-behavior: smooth;
+}
+
+body{
+
+
+    width: 100%;
+    height: 100%;
+    margin: 0px;
+    position: relative;
+    overflow-x: hidden;
+    border: 0px solid;
+    background-color: hsl(210, 13%, 9%);
+}
+@font-face {
+    font-family: Euclid Circular A-Light;
+    src: url("./assets/Euclid\ Circular\ A\ Light.ttf");
+}
+@font-face {
+    font-family: Euclid Circular A-Medium;
+    src: url("assets/Euclid\ Circular\ A\ Medium.ttf");
+}
+
+.nav {
+  position:fixed;
+  
+  width: 100%;
+  height: 60px;
+  background-color: #1f2835;
+  align-content: center;
+  display: flex;
+  overflow: hidden;
+  flex-direction: row;
+  padding-left: 10px;
+}
+
+.namelogoicon {
+
+  width: 50px;
+  height: 50px;
+  top: 8px;
+  align-self: center;
+  left: 17px;
+  object-fit: cover;
+}
+
+.text-wrapper {
+  width: 98px;
+
+
+  font-family: "Euclid Circular A-Light", Helvetica;
+  font-weight: 300;
+  color: #ffffff;
+  font-size: 20px;
+  text-align: center;
+  align-content: center;
+  letter-spacing: 0;
+  line-height: normal;
+  text-decoration: underline;
+}
+
+.text-wrapper1 {
+ 
+  width: 98px;
+
+  font-family: "Euclid Circular A-Light", Helvetica;
+  font-weight: 300;
+  color: #ffffff;
+  font-size: 20px;
+  text-align: center;
+  align-content: center;
+  letter-spacing: 0;
+  line-height: normal;
+  text-decoration: underline;
+}
+
+.text-wrapper-2 {
+ 
+  width: 116px;
+  
+  
+  font-family: "Euclid Circular A-Light", Helvetica;
+  font-weight: 300;
+  color: #ffffff;
+  font-size: 20px;
+  text-align: center;
+  align-content: center;
+  letter-spacing: 0;
+  line-height: normal;
+  text-decoration: underline;
+}
+
+.text-wrapper-3 {
+
+  width: 98px;
+
+  font-family: "Euclid Circular A-Light", Helvetica;
+  font-weight: 300;
+  color: #ffffff;
+  font-size: 20px;
+  text-align: center;
+  align-content: center;
+  letter-spacing: 0;
+  line-height: normal;
+  text-decoration: underline;
+}
+.header{
+    width: 100%;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding-top: 60px;
+}
+.hback{
+    min-height: 400px;
+    max-height: 600px;
+    background-image: url("assets/banner1.jpg");
+    background-size: cover;
+    background-position: center;
+    
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+    .htext{
+     
+        font-family: "Euclid Circular A-Medium", Helvetica;
+  font-weight: 200;
+  color: #ffffff;
+  font-size: 50px;
+  letter-spacing: 0;
+  line-height: normal;
+text-shadow:0 0 15px #182231;
+  margin-left: 8%;
+    }
+.container {
+    width: 50%;
+      display: flex;
+      flex-wrap: wrap;
+      gap: 20px;
+      padding: 50px;
+    }
+
+    .left {
+      flex: 2;
+      min-width: 200px;
+     
+      aspect-ratio: 1 / 1;
+      border-radius: 30px;
+overflow: hidden;
+    }
+
+    .right {
+      display: flex;
+      flex-direction: column;
+      gap: 20px;
+      flex: 1;
+      min-width: 150px;
+  
+    }
+
+    .small-box {
+      flex: 1;
+      aspect-ratio: 1 / 1;
+      border-radius: 30px;
+      overflow: hidden;
+    }
+.imglarge{
+
+width: 100%;
+height: 100%;
+object-fit: cover;
+object-position: center;
+}
+.imgsmall{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    object-position: center;
+}
+.box{
+    display: flex;
+    flex-direction: row;
+}
+.abouttext{
+    font-family: "Euclid Circular A-Medium", Helvetica;
+  font-weight: 500;
+  color: #ffffff;
+  font-size: 48px;
+  letter-spacing: 0;
+  line-height: normal;
+}
+.aboutme{
+      width: 534px;
+
+  font-family: "Euclid Circular A-Light", Helvetica;
+  font-weight: 500;
+  color: #ffffff;
+  font-size: 20px;
+  letter-spacing: 0;
+  line-height: normal;
+
+  margin-right: 100px;
+}
+.aboutmet{
+      width: 534px;
+
+  font-family: "Euclid Circular A-Light", Helvetica;
+  font-weight: 500;
+  color: #ffffff;
+  font-size: 20px;
+  letter-spacing: 0;
+  line-height: normal;
+text-shadow:0 1px 10px #182231;
+  margin-right: 100px;
+  margin-left: 8%;
+}
+
+
+
+
+
+
+
+     .footer {
+      background-color: #182231;
+      color: white;
+   
+      padding: 50px 60px;
+      display: flex;
+      justify-content: space-between;
+      flex-wrap: wrap;
+    }
+
+    .footer-left {
+      flex: 1;
+      
+    }
+
+    .footer-left h1 {
+      font-size: 20px;
+      font-weight: 400;
+      margin: 0 0 5px;
+      font-family: "Euclid Circular A-Medium";
+    }
+
+    .footer-left h2 {
+      font-size: 32px;
+      font-weight: 600;
+      margin: 0 0 30px;
+      font-family: "Euclid Circular A-Light";
+    }
+
+    .footer-left p,
+    .footer-left a {
+      color: #d1d5db;
+      text-decoration: none;
+      margin-bottom: 10px;
+      display: block;
+      font-size: 15px;
+      font-family: "Euclid Circular A-Light";
+    }
+
+    .footer-left a:hover {
+      text-decoration: underline;
+    }
+
+    .footer-links {
+      display: flex;
+      gap: 60px;
+      min-width: 200px;
+      font-family: "Euclid Circular A-Light";
+      margin-right: 100px;
+    }
+
+    .footer-column {
+      display: flex;
+      flex-direction: column;
+    }
+
+    .footer-column a {
+      color: #d1d5db;
+      text-decoration: underline;
+      margin-bottom: 12px;
+      font-size: 15px;
+    }
+
+    .footer-column a:hover {
+      color: white;
+    }
+
+
+    @media (max-width: 600px) {
+      .container {
+        flex-direction: column;
+        width: 80%;
+        padding: 20px;
+        align-self: center;
+      }
+
+      .right {
+        flex-direction: row;
+        justify-content: space-between;
+      }
+
+      .small-box {
+        flex: 1;
+      }
+.hback{
+  background-position: 95%;
+
+}
+.backblurred{
+  background-color: #0a101895;
+  width: 80%;
+  backdrop-filter: blur(12px) brightness(1.1);
+      -webkit-backdrop-filter: blur(12px) brightness(1.1);
+      border: 1px solid rgba(255, 255, 255, 0.2);
+      box-shadow: 0 8px 32px rgba(0, 0, 0, 0.2);
+}
+      .text-wrapper1, .text-wrapper-2, .text-wrapper-3{
+         
+margin-right: 10px;
+ width: fit-content;
+  font-family: "Euclid Circular A-Light", Helvetica;
+  font-weight: 300;
+  color: #ffffff;
+  font-size: 12px;
+  text-align: center;
+  align-content: center;
+  letter-spacing: 0;
+  line-height: normal;
+  text-decoration: underline;
+      }
+      .text-wrapper{
+        margin-left: 20px;
+        margin-right: 10px;
+ width: fit-content;
+  font-family: "Euclid Circular A-Light", Helvetica;
+  font-weight: 300;
+  color: #ffffff;
+  font-size: 12px;
+  text-align: center;
+  align-content: center;
+  letter-spacing: 0;
+  line-height: normal;
+  text-decoration: underline;
+      }
+      .abouttext{
+    font-family: "Euclid Circular A-Medium", Helvetica;
+  font-weight: 500;
+  color: #ffffff;
+  font-size: 28px;
+  letter-spacing: 0;
+  line-height: normal;
+  text-align: center;
+  
+  margin-left: 0px;
+}
+.aboutme{
+    width: 80%;
+
+  font-family: "Euclid Circular A-Light", Helvetica;
+  font-weight: 500;
+  color: #ffffff;
+  font-size: 14px;
+  letter-spacing: 0;
+  line-height: normal;
+  text-align: center;
+text-align: center;
+  align-self: center;
+  margin-right:0px;
+  
+  margin-left: 0%;
+}
+.aboutmet{
+      width: 80%;
+
+  font-family: "Euclid Circular A-Light", Helvetica;
+  font-weight: 500;
+  color: #ffffff;
+  font-size: 15px;
+  letter-spacing: 0;
+  line-height: normal;
+  margin-left: 0%;
+  margin-right: 0px;
+  text-align: center;
+  align-self: center;
+  margin-top: 0%;
+}
+
+.box{
+    flex-direction: column;
+}
+.htext{
+  font-size: 38px;
+  text-align: center;
+  margin-left: 0%;
+}
+
+.footer {
+        flex-direction: column;
+        align-items: start;
+        padding: 40px 10px;
+      }
+
+      .footer-links {
+        flex-direction: row;
+        justify-content: space-between;
+        margin: 10px;
+      }
+
+      .footer-column {
+        margin-top: 20px;
+      }
+
+}
+
+    @media (min-width: 600px) and (max-width: 1024px){
+
+      .aboutme{
+        width: 80%;
+        font-size: 18px;
+      }
+    .aboutmet{
+      width: 80%;
+
+  font-family: "Euclid Circular A-Light", Helvetica;
+  font-weight: 500;
+  color: #ffffff;
+  font-size: 18px;
+  letter-spacing: 0;
+  line-height: normal;
+  margin-left: 8%;
+  margin-right: 0px;
+  margin-top: 0%;
+  }
+.container{
+  width: 80%;
+}
+.right{
+  flex-direction: row;
+}
+.abouttext{
+  font-size: 28px;
+}
+    }
+
+
+    
